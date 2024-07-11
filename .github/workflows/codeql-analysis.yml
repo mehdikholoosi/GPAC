@@ -21,7 +21,7 @@ jobs:
     strategy:
       matrix:
         language: [ 'cpp' ]
-        # CodeQL uses 'cpp' for both C and C++ code analysis.
+        # CodeQL uses 'cpp' for both C and C++ code analysis
 
     steps:
     - name: Checkout repository
